@@ -33,7 +33,7 @@ important approach for self-driving cars as they provide reliable lane detection
 ![image](https://github.com/user-attachments/assets/8cfcf663-d398-4127-b83c-36763f0d50d2)
 
 
-The final output
+### Final Output
 
 ![image](https://github.com/user-attachments/assets/81e14981-efd8-44e5-aa4d-048c6ee0c1f5)
 
