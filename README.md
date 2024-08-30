@@ -1,4 +1,4 @@
-# ADAS
+# ADAS (Advanced Driving Assistance System)
 
 ![image](https://github.com/user-attachments/assets/007b8544-f560-4fc5-a19b-472d9d5ad89c)
 
@@ -18,7 +18,7 @@ The moderinization of ADAS applications is the first steps toward realizing auto
 
 Integrating state-of-the-art models SGDepth for depth estimation, YOLO for object detection, DeepLabv3+ for scene segmentation, and PINet for lane detection creates a foundation for an Advanced Driver Assistance System (ADAS). SGDepth calculates depth information, important for understanding the layout of the environment, while YOLO detects objects such as vehicles, pedestrians, and cyclists in real-time. Also, SGDepth provides semantic segmentation, allowing the system to delineate road boundaries, lane markings, Additionally, PINet specializes in lane detection, enabling the ADAS to identify lane boundaries and assist drivers in lane keeping tasks. By integrating these models, the ADAS gains capabilities, enhancing its ability to assist drivers in various scenarios, from collision avoidance to lane keeping and night vision, improving road safety and driving experience.
 
-
+### PINET
 As is clear in the picture, for main script, the arrangement and way the models work together, where the YOLO is used in object detection, and then we send the bounding box of detected objects to the depth model to evaluate the distance of these objects. It is also used in scene segmentation to determine the road, the side walk, and the PINet model.  It is used to divide the road into lanes, which facilitates the organization and movement of cars.
 PINet (key points estimation and point instance segmentation approach for lane detection)
 
