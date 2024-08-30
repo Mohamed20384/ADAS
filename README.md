@@ -5,9 +5,13 @@
 Essential safety-critical ADAS applications include:
 
 1 - Pedestrian detection/avoidance
+
 2 - Lane departure warning/correction
+
 3 - Traffic sign recognition
+
 4 - Automatic emergency braking
+
 5 - Blind spot detection
 
 These lifesaving systems are key to the success of ADAS applications. They incorporate the latest interface standards and run multiple vision-based algorithms to support real-time multimedia, vision coprocessing, and sensor fusion subsystems.
